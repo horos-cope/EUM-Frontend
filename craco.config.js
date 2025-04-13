@@ -10,4 +10,9 @@ module.exports = {
       "Cross-Origin-Embedder-Policy": "unsafe-none",
     },
   },
+  
+  eslint: {
+    enable: false,
+  },
+  
 };

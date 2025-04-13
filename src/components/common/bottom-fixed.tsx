@@ -63,8 +63,8 @@ export const BottomFixed = ({
           currentUrl[1] == "post" ||
           (currentUrl[1] == "chat" && !currentUrl[2]) ||
           currentUrl[1] == "mypage"
-            ? "4rem"
-            : "1.8rem"
+            ? "0rem"
+            : "0rem"
         } + ${!resizeHeight ? 0 : resizeHeight - 20}px)`,
       }}
       // style={{
